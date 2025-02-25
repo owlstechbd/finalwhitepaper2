@@ -1,0 +1,764 @@
+@font-face {
+    font-family: 'Publica Sans';
+    src: url('../font/PublicaSans-Medium.ttf') format('opentype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Publica Sans';
+    src: url('../font/PublicaSans-Light.ttf') format('opentype');
+    font-weight: 300 !important;
+    font-display: swap;
+}
+
+.for-phone{
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Publica Sans';
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+.logo img {
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    width: 7.5vw;
+}
+.header{
+    width: 100%;
+    padding: 20px 20px;
+    background: rgba(24, 27, 25, 1);
+}
+.main{
+    width: 85%;
+    margin: 0 auto;
+}
+.main2{
+    width: 95%;
+    margin-left: auto;
+}
+.webinar-hero{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 150px 0;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    color: #fff;
+    position: relative;
+    height: 60vh;
+}
+.webinar-hero h1{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.webinar-hero p{
+    font-size: 1.158vw;
+    margin-bottom: 80px;
+}
+
+.gobal-webinar-btn a{
+    font-size: 1.1vw;
+    line-height: normal;
+    color: #000000;
+    border-radius: 4px;
+    padding: 1.4vw 2.1vw 1.1vw;
+    background: #FFFFFF;
+}
+.gobal-webinar-btn a img{
+    margin-right: 15px;
+    width: 25px;
+    margin-bottom: -5px;
+    
+}
+.gobal-webinar-btn a i{
+    margin-right: 15px;
+}
+.gobal-webinar-btn button{
+    font-size: 1.1vw;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.4vw 2.1vw 1.1vw;
+    background: #000;
+}
+.webinar-cta .gobal-webinar-btn button{
+    color: #000;
+    background: #fff;
+}
+.gobal-webinar-btn button:hover{
+    cursor: pointer;
+}
+.gobal-webinar-btn button i{
+    margin-right: 15px;
+}
+.gobal-webinar-btn button img{
+    margin-right: 15px;
+    width: 25px;
+    margin-bottom: -5px;
+}
+.about-webinar{
+    width: 100%;
+    padding: 80px 0;
+}
+.about-web-container{
+    display: flex;
+    justify-content: space-between;
+}
+.webn-left{
+    width: 47%;
+}
+.videocall-img{
+    width: 80%;
+    margin: 15px 0;
+    margin-top: 20px;
+}
+
+.webn-left h3{
+    margin-bottom: 15px;
+}
+.first-title{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.third-title{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+.fourth-heading{
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+.first-pra{
+    font-size: 1.158vw;
+}
+.second-pra{
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+}
+.share-webnar p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.webn-right{
+    width: 40%;
+}
+.webn-right .white-paper-form{
+    background: #F1F1F1;
+    padding:50px 70px 70px;
+}
+.share-icon{
+    display: flex;
+    align-items: start;
+}
+.share-icon ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.share-icon ul li{
+    margin: 0 5px;
+}
+.fit-img {
+    width: 100%;
+}
+.about-speakers{
+    margin-top: 73px;
+    width: 48%;
+}
+.about-speakers h3{
+    margin-bottom: 30px;
+}
+.speakers-container{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+}
+.perona{
+    text-align: center;
+    width: 48%;
+    padding:20px 15px;
+    background: #F1F3F3;
+    border-radius: 10px;
+}
+.persona-img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.persona-img img{
+    width: 50%;
+    margin: 0 auto;
+}
+.linkedin {
+    width: 40px !important;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.perona h4{
+    margin-bottom: 10px;
+}
+.webinar-agenda{
+    margin: 100px 0;
+}
+.agenda-bg{
+    background: #F1F1F1;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: .6s;
+}
+.agenda-bg .fourth-heading{
+    font-weight: 400;
+}
+
+.webinar-agenda h3{
+    margin-bottom: 30px;
+}
+.who-watch ul{
+    padding-top: 20px;
+    padding-left:20px;
+    margin-bottom: 60px;
+}
+.who-watch ul li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.logo-footer img{
+    width: 7.5vw;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 496px;
+    max-width: 90%;
+    position: relative;
+    margin-top: 50px;
+}
+.white-paper-form{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 0;
+    background: transparent;
+}
+.white-paper-form input[type="submit"]{
+    width: 100%;
+    border-radius:4px;
+    font-size: 20px;
+    margin-top:70px;
+    padding:18px;
+    border: none;
+    background: #000000;
+    color: #FFFFFF;
+}
+.share-webnar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.popup-content h3 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.popup-content input[type="text"],
+.popup-content input[type="email"],
+.popup-content select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 30px;
+    color: #000;
+    border: none;
+    border-bottom: 1px #D9D9D9 solid;
+    font-family: inherit;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+   
+}
+
+/* Special styling for iOS Safari for the select element */
+.popup-content select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 24px;
+    /* Ensure there's space for the dropdown arrow */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4.5 8'%3E%3Cpath fill='none' stroke='%23000' stroke-width='.75' d='M.75 1l3 3-3 3'/%3E%3C/svg%3E");
+    /* Custom dropdown arrow */
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 8px;
+}
+
+/* Ensure this style works on all iOS devices */
+select:focus {
+    outline: none;
+    /* Remove the default outline on focus */
+    border-bottom: 2px solid #000;
+    /* Custom focus style */
+}
+
+.popup-content input::placeholder {
+    color: #888888;
+}
+
+.popup-content input:focus {
+    outline: none;
+}
+
+.popup-content select {
+    color: #888888!important;
+    margin-bottom: 35px;
+}
+
+select:focus,
+select:valid {
+    color: black;
+}
+
+.popup-content input[type="checkbox"] {
+    margin-right: 10px;
+
+}
+
+.popup-content input[type="checkbox"]:checked {
+    background-color: #000;
+}
+
+
+/* Base styles for the checkbox */
+.trem input[type="checkbox"] {
+    -webkit-appearance: none;
+    /* Ensure iOS support */
+    -moz-appearance: none;
+    appearance: none;
+    width: 24px;
+    /* Base size */
+    height: 24px;
+    /* Base size */
+    border: 2px solid #555;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: white;
+    /* Ensure a default background */
+    touch-action: manipulation;
+    /* Improve touch interaction */
+}
+
+/* Style the checked state */
+.trem input[type="checkbox"]:checked {
+    background-color: #000;
+    /* Custom background color when checked */
+    border-color: #000;
+}
+
+/* Add the checkmark when checked */
+.trem input[type="checkbox"]:checked::before {
+    content: '\2714';
+    /* Unicode for checkmark */
+    display: flex;
+    /* Flexbox for centering */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    /* Base font size */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 24px;
+    /* Base line-height */
+    pointer-events: none;
+    /* Ensure the checkmark doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t block clicks */
+}
+
+/* Optional: Focus state to make the checkbox stand out when focused */
+.trem input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00D6A8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .trem input[type="checkbox"] {
+        width: 20px;
+        /* Adjust size for tablets and smaller screens */
+        height: 20px;
+        /* Adjust size for tablets and smaller screens */
+    }
+
+    .trem input[type="checkbox"]:checked::before {
+        font-size: 14px;
+        /* Adjust font size for tablets and smaller screens */
+        line-height: 20px;
+        /* Adjust line-height for tablets and smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .trem input[type="checkbox"] {
+        width: 18px;
+        /* Further adjust size for mobile screens */
+        height: 18px;
+        /* Further adjust size for mobile screens */
+    }
+
+    .trem input[type="checkbox"]:checked::before {
+        font-size: 12px;
+        /* Adjust font size for mobile screens */
+        line-height: 18px;
+        /* Adjust line-height for mobile screens */
+    }
+}
+
+
+
+
+
+.popup-content .close-button {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.trem {
+    font-size: 15px;
+}
+
+.trem a {
+    color: #888888;
+    text-decoration: underline;
+}
+
+#popupForm select#jobRole{
+    margin-bottom: 30px;
+}
+.jobrole{
+    margin-bottom: 30px!important;
+}
+#popupForm input[type="submit"] {
+    background: #000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+footer{
+    background: #000;
+    width: 100%;
+    padding: 30px 0;
+}
+.footer-container{
+    width: 95%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-left{
+    width: 35%;
+}
+.footer-left p{
+    margin-top: 9px;
+    font-size: .9vw;
+}
+.footer-right{
+    width: 35%;
+}
+.footer-left form{
+    display: flex;
+    margin-top: 30px;
+}
+.footer-left input{
+    width: 100%;
+    font-size: 1.1vw;
+    color: #fff;
+    border: 1px #ffffff73 solid;
+    background: transparent;
+
+    padding: 0 15px;
+   
+}
+.footer-left input::placeholder{
+    font-size: 1.1vw;
+}
+.footer-left input[type="submit"] {
+    width: 27%;
+    background: #fff;
+    color: #000;
+    padding:15px 10px;
+    border: none;
+    
+    font-size: 1.1vw;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+.footer-right{
+    text-align: right;
+}
+.ploicy-list ul {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+.ploicy-list ul li {
+    margin-left: 15px;
+    position: relative;
+}
+.ploicy-list ul li a{
+    color: #fff;
+    font-size: .9vw;
+}
+.ploicy-list ul li::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    right: -6px;
+}
+.footer-right p {
+    margin-bottom:5px;
+    font-size: 1.1vw;
+    color: #fff;
+    margin-top: 30px;
+}
+.footer-icon ul {
+    display: flex;
+    justify-content: end;
+}
+.footer-icon ul li {
+    margin-left: 10px;
+}
+.footer-icon ul li img {
+    width: 1.5vw;
+}
+.popup-video{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    display: none;
+   
+}
+.video-container{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.video-container iframe{
+    width: 60%;
+    height: 50vh;
+    border-radius: 5px;
+}
+.share-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1101;
+    width: 430px;
+    text-align: center;
+    height: 288px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    display: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+.share-popup h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.share-popup ul{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+.share-popup ul li{
+    margin: 0 4px;
+}
+
+/* whitepaper-container */
+.whitepaper-container{
+    display: flex;
+    justify-content: space-between;
+}
+.whitepaper-left{
+    width: 42%;
+}
+.white-papper-img{
+    width: 40%;
+   background: #F1F3F3;
+   padding: 50px;
+   border-radius: 10px;
+}
+.white-papper-img img{
+    width: 100%;
+}
+.whitepaper-left p{
+    margin: 20px 0;
+}
+.whitepaper-left ul{
+    padding-left: 20px;
+}
+.whitepaper-left ul li{
+    list-style: disc;
+    margin-bottom: 35px;
+}
+.whitepaper-left ul li span{
+    font-weight: 500;
+}
+.white-footer-left{
+    width: 50%;
+}
+.white-footer-left ul{
+    justify-content: start;
+}
+.white-footer-right{
+    width: 50%;
+}
+.white-footer-right{
+    text-align: right;
+}
+.white-footer-left img{
+    margin-bottom:10px;
+}
+.white-footer-right p{
+    color: #00D6A8;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.thankyou-hero{
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    position: relative;
+    background: #011F20;
+}
+.thankyou-container{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thankyou-left{
+    width: 30%;
+}
+.thankyou-left p{
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+.thank-btn{
+    width: 100%;
+    margin-top: 40px;
+}
+.thankyou-right{
+    width: 45%;
+    height: 462px;
+}
+.thankyou-right iframe{
+   
+}
+.more-webinar{
+    width: 100%;
+    padding: 80px 0;
+}
+.more-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.webinar-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.webinar-box{
+    width: 32%;
+}
+.webinar-box img{
+    width: 100%;
+    margin-top:20px;
+}
+.webinar-cta{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/webinar-cta.png) center center no-repeat;
+    background-size: cover;
+}
+.cta-divder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-divder h2{
+    color: #fff;
+    width: 30%;
+}
