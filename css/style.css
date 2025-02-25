@@ -77,7 +77,12 @@ a:hover {
     font-size: 1.158vw;
     margin-bottom: 80px;
 }
-
+.view-report{
+    margin-top: 60px;
+}
+.share-icon{
+    margin-top: 60px;
+}
 .gobal-webinar-btn a{
     font-size: 1.1vw;
     line-height: normal;
@@ -118,6 +123,65 @@ a:hover {
     width: 25px;
     margin-bottom: -5px;
 }
+
+.white-thankyou{
+    padding: 80px 0;
+}
+.white-main{
+    width: 80%;
+    margin: 0 auto;
+}
+.white-subcribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.white-sub-pra{
+    width: 20%;
+}
+.white-sub-box{
+    width: 40%;
+    background:linear-gradient(93deg, rgba(224,228,227,1) 0%, rgba(224, 228, 227, 0.299) 70%), url(../images/sub.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 30px;
+}
+.white-sub-box form{
+    display: flex;
+    margin: 15px 0 0;
+}
+.white-sub-box input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.white-sub-box input:focus{
+    outline: none;
+}
+.white-sub-box input::placeholder{
+    font-size: 1.1vw;
+    color: #ADADAD99;
+}
+.white-sub-box input[type="submit"]{
+    width: 30%;
+    padding: 15px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 1.1vw;
+}
+.thankyou-banner img{
+    width: 100%;
+    margin: 50px 0;
+}
+.center-title{
+    text-align: center;
+}
+.center-title p{
+    margin-bottom: 50px;
+}
+
 .about-webinar{
     width: 100%;
     padding: 80px 0;
@@ -761,4 +825,9 @@ input[type="submit"]:hover {
 .cta-divder h2{
     color: #fff;
     width: 30%;
+}
+
+.center-title .gobal-webinar-btn a{
+    background: #000;
+    color: #fff;
 }

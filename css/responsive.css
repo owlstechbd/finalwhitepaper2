@@ -20,7 +20,7 @@
         margin: 80px 0;
     }
     .webinar-hero p{
-        margin-top: 10px;
+        margin-top: 0px;
         font-size:16px;
     }
     .gobal-webinar-btn a{
@@ -120,7 +120,7 @@
     .webinar-hero{
         background-repeat: no-repeat!important;
         background-size: cover!important;
-        background-position: bottom right!important;
+        background-position: center center !important;
     }
 
     .thankyou-right{
@@ -184,6 +184,9 @@
     }
     .webn-right .white-paper-form{
         padding: 50px 30px;
+    }
+    .white-sub-pra {
+        width: 28%;
     }
     .speakers-container {
     width: 48%;
@@ -281,6 +284,15 @@
     .thankyou-left {
         width: 40%;
     }
+    .white-sub-pra {
+        width: 30%;
+    }
+    .share-icon ul li {
+        margin-top: 1px;
+    }
+    .white-sub-box{
+        width: 60%;
+    }
     .thankyou-right{
         width: 55%;
     }
@@ -329,6 +341,26 @@
         background-size: cover !important;
         background-position: bottom right !important;
     }
+    .white-subcribe{
+        flex-direction: column;
+    }
+    .white-sub-pra {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .white-sub-box{
+        width: 100%;
+    }
+    .view-report {
+        margin-top: 34px;
+    }
+    .share-icon {
+        margin-top: 40px;
+    }
+    .white-main {
+        width: 90%;
+        margin: 0 auto;
+    }
     .whitepaper-container{
         flex-direction: column;
     }
@@ -373,6 +405,7 @@
     }
     .webinar-hero p{
         font-size: 20px;
+        
     }
     .about-speakers{
         text-align: center;
